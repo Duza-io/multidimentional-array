@@ -1,3 +1,7 @@
+/**
+ * @author: MARK ANDREW DUZA
+ */
+
 public class App { // class file
     public static void main(String[] args) throws Exception { // main method
         // 2D-array
