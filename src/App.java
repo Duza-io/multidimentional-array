@@ -5,10 +5,11 @@
 public class App { // class file
     public static void main(String[] args) throws Exception { // main method
         // 2D-array
-        int[][] grades = new int[][] { { 1, 82, 74, 89, 100 },
-                { 2, 93, 96, 85, 86 },
-                { 3, 83, 72, 95, 89 },
-                { 4, 91, 98, 79, 88 } };
+        int[][] grades = new int[][] { { 82, 74, 89, 100 },
+                { 93, 96, 85, 86 },
+                { 83, 72, 95, 89 },
+                { 91, 98, 79, 88 },
+                { 85, 90, 96, 89 } };
 
         // declared variables
         float avarage;
@@ -19,7 +20,7 @@ public class App { // class file
             for (int col = 0; col < grades[row].length; col++) {
                 total += grades[row][col];
             }
-            avarage = ((float) total / grades.length);
+            avarage = ((float) total / grades[0].length);
             System.out.printf("Average: %.2f \n", avarage); // %.2f means get 2 decimals of float/double
         }
 
