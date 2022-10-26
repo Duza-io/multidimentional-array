@@ -12,7 +12,7 @@ public class App { // class file
                 { 85, 90, 96, 89 } };
 
         // declared variables
-        float avarage;
+        float average;
         int total;
 
         for (int row = 0; row < grades.length; row++) {
@@ -20,8 +20,8 @@ public class App { // class file
             for (int col = 0; col < grades[row].length; col++) {
                 total += grades[row][col];
             }
-            avarage = ((float) total / grades[0].length);
-            System.out.printf("Average: %.2f \n", avarage); // %.2f means get 2 decimals of float/double
+            average = ((float) total / grades[0].length);
+            System.out.printf("Average: %.2f \n", average); // %.2f means get 2 decimals of float/double
         }
 
         System.out.println("\nrows: " + grades.length);
